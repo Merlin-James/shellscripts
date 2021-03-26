@@ -1,0 +1,20 @@
+#!/bin/bash
+#This is my First script 
+#Author Name: Merlin
+
+looptest=y
+while [ "$looptest" = y ]
+do
+echo -n "Enter Name: 
+read name
+echo -n "Enter Street: "; read street
+echo -n "Enter City: "; read city
+echo -n "Enter State: "; read state
+echo -n "Want to continue? (y)es or (n)o: "; read looptest
+done
+
+
+
+
+
+
